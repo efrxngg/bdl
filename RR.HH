@@ -108,13 +108,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S4n5isgT4MQJhM72Ye09" name="Diagrama de componentes">
-    <mxGraphModel dx="1680" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3597" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <object placeholders="1" c4Name="BancoLitoral" c4Type="WAR" c4Technology="WS" c4Description="Sistema Web Interno" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="7FHuSbBK_qWsFP_E98WO-1">
           <mxCell parent="1" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
-            <mxGeometry height="160" width="240" x="700" y="40" as="geometry" />
+            <mxGeometry height="160" width="240" x="710" y="160" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Exchange365" c4Type="Software System" c4Description="Servicio de Notificaciones de MS365" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="AFJHnL__RS9t1kb_xQMW-1">
@@ -190,13 +190,13 @@
           <mxCell edge="1" parent="1" source="7FHuSbBK_qWsFP_E98WO-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;">
             <mxGeometry relative="1" width="240" as="geometry">
               <mxPoint x="650" y="250" as="sourcePoint" />
-              <mxPoint x="820" y="280" as="targetPoint" />
+              <mxPoint x="830" y="400" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
         <object placeholders="1" c4Name="BL.APP.RRHH" c4Type="ContainerScopeBoundary" c4Application="WAR API" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="jHCnB6F18MAmHVPDIs_y-2">
           <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="1000" width="1200" x="220" y="280" as="geometry" />
+            <mxGeometry height="880" width="1200" x="220" y="400" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Description="2. Notifica la actualización" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="jHCnB6F18MAmHVPDIs_y-5">
@@ -270,40 +270,6 @@
             <mxGeometry relative="1" width="240" as="geometry">
               <mxPoint x="640" y="910" as="sourcePoint" />
               <mxPoint x="880" y="910" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <mxCell id="TUrJ00Ub-vuAn9R88kYw-1" parent="1" style="ellipse;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="565" y="370" as="geometry" />
-        </mxCell>
-        <mxCell id="TUrJ00Ub-vuAn9R88kYw-3" parent="1" style="ellipse;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="886" y="360" as="geometry" />
-        </mxCell>
-        <object placeholders="1" c4Type="Relationship" id="TUrJ00Ub-vuAn9R88kYw-4">
-          <mxCell edge="1" parent="1" source="TUrJ00Ub-vuAn9R88kYw-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
-            <mxGeometry relative="1" width="240" as="geometry">
-              <mxPoint x="580" y="390" as="sourcePoint" />
-              <mxPoint x="580" y="480" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Type="Relationship" id="TUrJ00Ub-vuAn9R88kYw-5">
-          <mxCell edge="1" parent="1" source="TUrJ00Ub-vuAn9R88kYw-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
-            <mxGeometry relative="1" width="240" as="geometry">
-              <Array as="points">
-                <mxPoint x="580" y="410" />
-                <mxPoint x="580" y="410" />
-              </Array>
-              <mxPoint x="580" y="400" as="sourcePoint" />
-              <mxPoint x="580" y="480" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Type="Relationship" id="TUrJ00Ub-vuAn9R88kYw-7">
-          <mxCell edge="1" parent="1" source="TUrJ00Ub-vuAn9R88kYw-3" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
-            <mxGeometry relative="1" width="240" as="geometry">
-              <mxPoint x="916" y="430" as="sourcePoint" />
-              <mxPoint x="901" y="480" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
@@ -512,6 +478,20 @@
             <mxPoint x="890" y="720" as="sourcePoint" />
             <mxPoint x="969" y="773" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IRddg57-LPZgbZA5LEF2-4" edge="1" parent="1" source="IRddg57-LPZgbZA5LEF2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fYSa4BK9EUfcGU9cp0zs-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRddg57-LPZgbZA5LEF2-3" parent="1" style="ellipse;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="110" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="IRddg57-LPZgbZA5LEF2-5" edge="1" parent="1" source="IRddg57-LPZgbZA5LEF2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="974" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRddg57-LPZgbZA5LEF2-6" parent="1" style="ellipse;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="110" y="959" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
