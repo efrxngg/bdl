@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.6">
   <diagram name="Proceso Pastel" id="OeObWw6fb0yXboZ0vVB4">
-    <mxGraphModel dx="1471" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1697" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,7 +185,7 @@
         <mxCell id="8S0k5gSDNIcqNJNIFKH--13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="PedidoCabecera (Entidad)" vertex="1">
           <mxGeometry height="140" width="180" x="1140" y="1400" as="geometry" />
         </mxCell>
-        <mxCell id="8S0k5gSDNIcqNJNIFKH--14" parent="8S0k5gSDNIcqNJNIFKH--13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- int id&#xa;- Usuario usuario&#xa;- Date fecha&#xa;- double total&#xa;- String estado" vertex="1">
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--14" parent="8S0k5gSDNIcqNJNIFKH--13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- String id&lt;br&gt;- String idUsuario&lt;br&gt;- Date fecha&lt;br&gt;- double total&lt;br&gt;- String estado" vertex="1">
           <mxGeometry height="80" width="180" y="26" as="geometry" />
         </mxCell>
         <mxCell id="8S0k5gSDNIcqNJNIFKH--15" parent="8S0k5gSDNIcqNJNIFKH--13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
@@ -203,7 +203,7 @@
         <mxCell id="8S0k5gSDNIcqNJNIFKH--19" parent="8S0k5gSDNIcqNJNIFKH--17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
           <mxGeometry height="8" width="180" y="106" as="geometry" />
         </mxCell>
-        <mxCell id="8S0k5gSDNIcqNJNIFKH--20" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" value="MySQL / Archivo" vertex="1">
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--20" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" value="MySQL" vertex="1">
           <mxGeometry height="80" width="160" x="960" y="1630" as="geometry" />
         </mxCell>
         <mxCell id="8S0k5gSDNIcqNJNIFKH--22" edge="1" parent="1" source="8S0k5gSDNIcqNJNIFKH--13" target="8S0k5gSDNIcqNJNIFKH--17">
@@ -246,7 +246,7 @@
             <mxPoint x="1342" y="1214" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8S0k5gSDNIcqNJNIFKH--30" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" value="MySQL / Archivo" vertex="1">
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--30" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" value="MySQL" vertex="1">
           <mxGeometry height="80" width="160" x="1010" y="1140" as="geometry" />
         </mxCell>
         <mxCell id="8S0k5gSDNIcqNJNIFKH--33" edge="1" parent="1" source="msHpQ-KOXZjSCPFON4Py-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="8S0k5gSDNIcqNJNIFKH--32" value="">
@@ -317,6 +317,42 @@
         </mxCell>
         <mxCell id="8S0k5gSDNIcqNJNIFKH--59" parent="8S0k5gSDNIcqNJNIFKH--56" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ calcularTotal()&lt;/div&gt;" vertex="1">
           <mxGeometry height="32" width="180" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--64" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="GestionUsuarios (Service)" vertex="1">
+          <mxGeometry height="100" width="220" x="470" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--65" parent="8S0k5gSDNIcqNJNIFKH--64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- UsuarioRepository repo" vertex="1">
+          <mxGeometry height="30" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--66" parent="8S0k5gSDNIcqNJNIFKH--64" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--67" parent="8S0k5gSDNIcqNJNIFKH--64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ crearUsuario(datos)&#xa;+ modificarEstado(id, nuevoEstado)" vertex="1">
+          <mxGeometry height="36" width="220" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--75" edge="1" parent="1" source="8S0k5gSDNIcqNJNIFKH--68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8S0k5gSDNIcqNJNIFKH--74" value="Persiste">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--68" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="UsuarioRepository" vertex="1">
+          <mxGeometry height="130" width="180" x="810" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--69" parent="8S0k5gSDNIcqNJNIFKH--68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- DatabaseConnection db" vertex="1">
+          <mxGeometry height="30" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--70" parent="8S0k5gSDNIcqNJNIFKH--68" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--71" parent="8S0k5gSDNIcqNJNIFKH--68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ guardar(Usuario)&#xa;+ buscarPorId(int)&#xa;+ actualizar(Usuario)" vertex="1">
+          <mxGeometry height="66" width="180" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--73" edge="1" parent="1" source="8S0k5gSDNIcqNJNIFKH--65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" target="8S0k5gSDNIcqNJNIFKH--68" value="utiliza">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--76" edge="1" parent="1" source="8S0k5gSDNIcqNJNIFKH--74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="User_A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8S0k5gSDNIcqNJNIFKH--74" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" value="MySQL" vertex="1">
+          <mxGeometry height="80" width="160" x="1070" y="551" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
